@@ -4,7 +4,8 @@ public class AccountOperations {
         return a;
     }
     public static Account setDefaultPhone(Account a) {//Dev01
-    	a.Phone = '9879879877';
+   //ConflictTest
+     	a.Phone = '9879879877';
     	return a;
 	}
 }
